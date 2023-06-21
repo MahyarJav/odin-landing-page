@@ -1,0 +1,185 @@
+:root {
+    --std-white: #F9FAF8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--std-white);
+}
+
+.large-text {
+    font-size: 36px;
+}
+
+.medium-text {
+    font-size: 24px;
+}
+
+.extra-large {
+    font-size: 48px;
+}
+
+.extra-bold {
+    font-weight: 900
+}
+
+li {
+    list-style-type: none;
+}
+
+.blue-border {
+    border: 4px solid #3882F6;
+}
+
+.white-border {
+    border: 2px solid var(--std-white);
+}
+
+.light-white,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.std-white {
+    color: var(--std-white)
+}
+
+button {
+    background-color: #3882F6;
+    width: 110px;
+    height: 32px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+    color: var(--std-white);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+header,
+footer {
+    background-color: #1F2937;
+    color: var(--std-white);
+}
+
+.header-container,
+.footer-text {
+    padding: 15px 10%;
+}
+
+main>section {
+    text-align: center;
+    padding: 30px 15%;
+}
+
+
+
+.header-list {
+    display: flex;
+    gap: 20px;
+    height: 40px;
+
+}
+
+#header-title {
+    margin-right: auto;
+}
+
+.header-two {
+    display: flex;
+    margin: 100px auto;
+    gap: 35px;
+}
+
+#column-one {
+    width: 30%;
+    flex-grow: 1;
+}
+
+#column-two {
+    text-align: center;
+    background-color: grey;
+    height: 220px;
+    width: 300px;
+    flex-grow: 1;
+}
+
+.header-image {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.main-header {
+    margin-bottom: 50px;
+}
+
+.main-img-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 180px;
+}
+
+.main-img,
+figure {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px 15%;
+    width: 100%;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+}
+
+.newsletter-container {
+    padding: 100px;
+}
+
+.newsletter-div {
+    display: flex;
+    align-items: baseline;
+    background-color: #3882F6;
+    border-radius: 7px;
+    height: 150px;
+    padding: 4% 12%;
+}
+
+.newsletter-item-one {
+    text-align: left;
+    flex-grow: 1;
+
+}
+
+/* FOOTER SECTION */
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px;
+    bottom: 0;
+}
